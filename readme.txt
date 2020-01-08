@@ -2,6 +2,17 @@ Stefou Theodoros - Στέφου Θεόδωρος
 AM: cs2190002
 email: cs2190002@di.uoa.gr / theo.stefou@gmail.com
 
+====== 	HOW TO RUN  ======
+In order to run this project you need to have mongoDB 4.2.2 installed.
+The project must be run inside a python3 virtual environment that has
+Flask and pymongo installed.
+
+To start the server, simply typle ./start.sh in your bash terminal while
+at the root directory.
+
+The files that refer to data initialization, should have their paths slightly changed
+according to your file system.
+
 ======   SCHEMA     ======
 The application uses mongoDB version 4.2.2
 Database name: nosql
