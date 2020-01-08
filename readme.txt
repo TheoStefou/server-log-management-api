@@ -5,7 +5,8 @@ email: cs2190002@di.uoa.gr / theo.stefou@gmail.com
 ====== 	HOW TO RUN  ======
 In order to run this project you need to have mongoDB 4.2.2 installed.
 The project must be run inside a python3 virtual environment that has
-Flask and pymongo installed.
+Flask and pymongo installed. To produce the random admins using the
+create_admins.py script, you need the Faker module.
 
 To start the server, simply typle ./start.sh in your bash terminal while
 at the root directory.
